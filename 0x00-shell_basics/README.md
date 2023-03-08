@@ -9,4 +9,4 @@ mv /tmp/betty -t /tmp/my_first_directory- moves Betty from /tmp/ to /tmp/my_firs
 rm /tmp/my_first_directory/betty-deletes betty from /tmp/my_first_directory
 rmdir /tmp/my_first_directory-deletes my_first_directory from /tmp
 cd - -changes current working directory to the previous one
-list -a . /alx-system_engineering-devops /boot-list contents even hidden files of directories in order
+list -a -l . /alx-system_engineering-devops /boot-list contents even hidden files of directories in order
