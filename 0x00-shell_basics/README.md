@@ -10,3 +10,4 @@ rm /tmp/my_first_directory/betty-deletes betty from /tmp/my_first_directory
 rmdir /tmp/my_first_directory-deletes my_first_directory from /tmp
 cd - -changes current working directory to the previous one
 list -a -l . /alx-system_engineering-devops /boot-list contents even hidden files of directories in order
+mkdir welcome/ welcome/to/ welcome/to/school/-creates these directories in current working directory
