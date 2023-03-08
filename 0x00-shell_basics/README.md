@@ -6,3 +6,4 @@ ls -a -l-list contents including hidden files(starting with .)
 ls -a -n-list content using Long format with user and group IDs displayed numerically and hidden files (starting with .)
 mkdir /tmp/-creates a directory in the tmp directory
 mv betty ~/tmp/my_first_directory- moves Betty from /tmp/ to /tmp/my_first_directory
+cd ..-changes current working directory to the previous one
