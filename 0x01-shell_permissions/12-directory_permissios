@@ -1,2 +1,0 @@
-#!/bin/bash
-umask 751 ; mkdir my_dir
