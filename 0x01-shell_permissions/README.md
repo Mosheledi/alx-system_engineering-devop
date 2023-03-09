@@ -5,4 +5,8 @@ sudo chown-changes file ownwership to desired user
 touch hello-creates an empty file called 'hello'
 chomd u+rwx,g+r,o+r-adds execute permission to owner of desired file
 chmod u+rwx,g+rx,o+r-gives owner and group execute permission but everyone else the read permission
-chmod 751 555-adds execution permission to the owner, the group owner and the other users, to the file hello
+chmod 751-adds execution permission to the owner, the group owner and the other users, to the file hello
+chmod 007-sets the permission to the file hello as follows:
+Owner: no permission at all
+Group: no permission at all
+Other users: all the permissions
