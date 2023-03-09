@@ -11,3 +11,4 @@ Owner: no permission at all
 Group: no permission at all
 Other users: all the permissions
 chmod 753-changes permission for hello file to -rwxr-x-wx
+chgrp school hello-changes the group owner to school for the file hello
