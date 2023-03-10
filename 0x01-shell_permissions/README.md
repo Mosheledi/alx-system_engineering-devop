@@ -13,4 +13,5 @@ Other users: all the permissions
 chmod 753-changes permission for hello file to -rwxr-x-wx
 chgrp school hello-changes the group owner to school for the file hello
 chmod --reference=olleh hello-mirrors olleh permissions to hello
+sudo find Example -type d -exec chmod 755 {} \
 umask 751 , mkdir my_dir-creates a directory named my_dir with the specific permissions
